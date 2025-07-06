@@ -225,21 +225,21 @@ const App: React.FC = () => {
           <div className="contact-content">
             <div className="contact-info">
               <div className="contact-item">
-                <div className="contact-icon">📧</div>
+              <div className="contact-icon"><img src={process.env.PUBLIC_URL + '/reshot-icon-important-email-TRXVZ8GKDP.svg'} alt="GitHub Icon" style={{ width: '40px', height: '40px' }} /></div>
                 <div>
                   <h3>Email</h3>
                   <p>artem6841@gmail.com</p>
                 </div>
               </div>
               <div className="contact-item">
-                <div className="contact-icon">💼</div>
+              <div className="contact-icon"><img src={process.env.PUBLIC_URL + '/icons8-linkedin.svg'} alt="GitHub Icon" style={{ width: '40px', height: '40px' }} /></div>
                 <div>
                   <h3>LinkedIn</h3>
                   <p>linkedin.com/in/artemkaplugga</p>
                 </div>
               </div>
               <div className="contact-item">
-                <div className="contact-icon">🐙</div>
+                <div className="contact-icon"><img src={process.env.PUBLIC_URL + '/github-mark.svg'} alt="GitHub Icon" style={{ width: '40px', height: '40px' }} /></div>
                 <div>
                   <h3>GitHub</h3>
                   <p>https://github.com/artemkaplugga</p>
