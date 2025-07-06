@@ -28,6 +28,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  overflow: hidden;
 }
 
 /* Hero Section */
@@ -133,12 +134,12 @@ body {
   background: linear-gradient(45deg, #ff6b6b, #ee5a24);
   color: white;
   box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
-}
+  }
 
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);
-}
+  }
 
 .btn-secondary {
   background: transparent;
@@ -594,7 +595,7 @@ section {
   
   .footer-content {
     flex-direction: column;
-    text-align: center;
+  text-align: center;
   }
   
   .code-block {
