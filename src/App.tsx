@@ -165,12 +165,12 @@ const App: React.FC = () => {
                 </div>
               </div>
               <div className="project-info">
-                <h3>E-Commerce Platform</h3>
-                <p>Современная платформа электронной коммерции с React и TypeScript</p>
+                <h3>Aetix</h3>
+                <p>Современный веб-сайт, разработанный для компании Aetix с использованием передовых технологий.</p>
                 <div className="project-tech">
-                  <span>React</span>
-                  <span>TypeScript</span>
-                  <span>Node.js</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
                 </div>
               </div>
             </div>
@@ -185,12 +185,12 @@ const App: React.FC = () => {
                 </div>
               </div>
               <div className="project-info">
-                <h3>Task Management App</h3>
-                <p>Приложение для управления задачами с drag-and-drop функциональностью</p>
+                <h3>Интернет Магазин</h3>
+                <p>Полнофункциональный интернет-магазин с корзиной, каталогом товаров и системой оплаты.</p>
                 <div className="project-tech">
-                  <span>React</span>
-                  <span>TypeScript</span>
-                  <span>CSS3</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
                 </div>
               </div>
             </div>
@@ -205,11 +205,11 @@ const App: React.FC = () => {
                 </div>
               </div>
               <div className="project-info">
-                <h3>Weather Dashboard</h3>
-                <p>Интерактивная панель погоды с красивой анимацией и API интеграцией</p>
+                <h3>Портфолио</h3>
+                <p>Простой и функциональный веб-сайт, созданный для демонстрации основных навыков веб-разработки.</p>
                 <div className="project-tech">
                   <span>React</span>
-                  <span>API</span>
+                  <span>TypeScript</span>
                   <span>CSS3</span>
                 </div>
               </div>
@@ -235,7 +235,7 @@ const App: React.FC = () => {
                 <div className="contact-icon">💼</div>
                 <div>
                   <h3>LinkedIn</h3>
-                  <p>linkedin.com/in/artem</p>
+                  <p>linkedin.com/in/artemkaplugga</p>
                 </div>
               </div>
               <div className="contact-item">
