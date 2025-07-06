@@ -23,8 +23,8 @@ const App: React.FC = () => {
               Создаю современные, отзывчивые и красивые веб-приложения с использованием React и TypeScript
             </p>
             <div className="hero-buttons">
-              <button className="btn btn-primary">Посмотреть работы</button>
-              <button className="btn btn-secondary">Связаться</button>
+              <a href="#projects" className="btn btn-primary">Посмотреть работы</a>
+              <a href="#contact" className="btn btn-secondary">Связаться</a>
             </div>
           </div>
           <div className="hero-visual">
@@ -56,7 +56,7 @@ const App: React.FC = () => {
           <div className="about-content">
             <div className="about-text">
               <p>
-                Я фронтенд-разработчик с страстью к созданию интуитивных и визуально привлекательных пользовательских интерфейсов. 
+                Я начинающий фронтенд-разработчик с страстью к созданию интуитивных и визуально привлекательных пользовательских интерфейсов. 
                 Специализируюсь на React экосистеме и современных веб-технологиях.
               </p>
               <p>
@@ -66,11 +66,11 @@ const App: React.FC = () => {
             </div>
             <div className="about-stats">
               <div className="stat">
-                <span className="stat-number">2+</span>
-                <span className="stat-label">Года опыта</span>
+                <span className="stat-number">4+</span>
+                <span className="stat-label">Месяца опыта</span>
               </div>
               <div className="stat">
-                <span className="stat-number">15+</span>
+                <span className="stat-number">4+</span>
                 <span className="stat-label">Проектов</span>
               </div>
               <div className="stat">
@@ -158,11 +158,8 @@ const App: React.FC = () => {
               <div className="project-image">
                 <div className="project-overlay">
                   <div className="project-links">
-                    <a href="https://github.com/yourusername/project1" target="_blank" rel="noopener noreferrer" className="project-link">
+                    <a href="https://github.com/artemkaplugga/optimized_hosting" target="_blank" rel="noopener noreferrer" className="project-link">
                       <span>GitHub</span>
-                    </a>
-                    <a href="#" className="project-link">
-                      <span>Live Demo</span>
                     </a>
                   </div>
                 </div>
@@ -184,9 +181,6 @@ const App: React.FC = () => {
                     <a href="https://github.com/yourusername/project2" target="_blank" rel="noopener noreferrer" className="project-link">
                       <span>GitHub</span>
                     </a>
-                    <a href="#" className="project-link">
-                      <span>Live Demo</span>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -206,9 +200,6 @@ const App: React.FC = () => {
                   <div className="project-links">
                     <a href="#" className="project-link">
                       <span>GitHub</span>
-                    </a>
-                    <a href="#" className="project-link">
-                      <span>Live Demo</span>
                     </a>
                   </div>
                 </div>
@@ -251,7 +242,7 @@ const App: React.FC = () => {
                 <div className="contact-icon">🐙</div>
                 <div>
                   <h3>GitHub</h3>
-                  <p>github.com/artem</p>
+                  <p>https://github.com/artemkaplugga</p>
                 </div>
               </div>
             </div>
